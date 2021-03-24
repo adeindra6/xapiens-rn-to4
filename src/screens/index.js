@@ -12,3 +12,4 @@ export {default as SignUpScreen} from './SignUp';
 
 //Welcome and Profile
 export {default as WelcomeScreen} from './Welcome';
+export {default as ProfileScreen} from './Profile';

@@ -12,10 +12,12 @@ export {default as Image3Component} from './Image3';
 export {default as Image4Component} from './Image4';
 export {default as Image5Component} from './Image5';
 export {default as Image6Component} from './Image6';
+export {default as Image7Component} from './Image7';
 
 //Button
 export {default as ButtonBorderlessComponent} from './ButtonBorderless';
 export {default as ButtonRedirectComponent} from './ButtonRedirect';
+export {default as ButtonNonFillComponent} from './ButtonNonFill';
 
 //TextInput
 export {default as PlainInputTextComponent} from './PlainInputText';

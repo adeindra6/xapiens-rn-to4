@@ -13,6 +13,7 @@ import {
   LoginScreen,
   SignUpScreen,
   WelcomeScreen,
+  ProfileScreen,
 } from '@screens';
 
 import AuthProvider from '@contexts/auth';
@@ -116,6 +117,20 @@ const App = () => {
             component={WelcomeScreen}
             options={{
               title: 'Welcome',
+              headerStyle: {
+                backgroundColor: 'green',
+              },
+              headerTintColor: '#ffffff',
+              headerTitleStyle: {
+                fontWeight: 'bold',
+              },
+            }}
+          />
+          <Drawer.Screen
+            name="Profile"
+            component={ProfileScreen}
+            options={{
+              title: 'Profile',
               headerStyle: {
                 backgroundColor: 'green',
               },
